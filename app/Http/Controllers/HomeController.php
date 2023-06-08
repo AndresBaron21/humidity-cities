@@ -10,6 +10,7 @@ class HomeController extends Controller
 {
     public function index()
     {
+        phpinfo();
         // Fetch humidity data from the API
         $humidityData = $this->fetchHumidityData();
         
